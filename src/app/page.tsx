@@ -9,7 +9,7 @@ export default function Home() {
           <span className="italic font-thin bg-gradient-to-b from-cyan-300 to-cyan-700 w-full text-transparent bg-clip-text p-2">
             SARAVANAN welcome to my website
             <Image
-              src="/src/app/mental.png"
+              src="/mental.png"
               alt="saravanan"
               width={1000}
               height={1000}
