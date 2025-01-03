@@ -1,3 +1,4 @@
+import Image from "next/image";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
@@ -32,3 +33,9 @@ export default function RootLayout({
     </html>
   );
 }
+<Image
+  src="/src/app/mental.png" // Now the image is at public/mental.png
+  alt="saravanan"
+  width={100}
+  height={100}
+/>;
